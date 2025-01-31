@@ -48,3 +48,21 @@ a {
     display: unset;
   }
 }
+
+.headline {
+  margin-bottom: 32px;
+}
+
+#submission-button {
+  background-color: #24249882;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 16px;
+}
