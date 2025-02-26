@@ -49,20 +49,24 @@ a {
   }
 }
 
-.headline {
-  margin-bottom: 32px;
+.navigation {
+  background-color: blue;
 }
 
-#submission-button {
-  background-color: #24249882;
-  padding: 16px;
+.main {
+  background-color: #338791;
+  display: flex;
+  gap: 16px;
 }
 
-.container {
+.section-1 {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
-input {
-  padding: 16px;
+.section-2 {
+  /* background-color: green; */
+  flex: 2;
 }
